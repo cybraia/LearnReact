@@ -1,0 +1,44 @@
+Javascript:
+-High level
+-multi paradigm - functional, oop..
+
+ECMAScript is the official name 
+
+ECMAScript 2015 - ES6 (ECMAScript 6)
+ New features ->
+- let,const
+- arrow functions
+- for/of
+- map obj
+- set
+- classes
+- promise
+
+let, var, const
+
+var
+var is for variables available to the entire function 
+var keyword is can be redeclared inside the same scope. brings up some serious issue. 
+the new variable will replace the old one
+
+let
+let creates variables that are block-scoped
+cannot be redeclared but can be updated
+
+const - block scoped
+Const variables cannot be updated or redeclared
+Must be initialized
+
+Scopes:
+-Block 
+Variables declared inside a { } block cannot be accessed from outside the block - let and const
+Variables declared inside a { } block cannot be accessed from outside the block - var
+
+-function
+Variables defined inside a function are not accessible (visible) from outside the function.
+
+-Global
+All scripts and functions on a web page can access a global variable
+
+Datatypes
+When adding a number and a string, JavaScript will treat the number as a string.
