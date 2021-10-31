@@ -72,3 +72,34 @@ const todoJSON = JSON.stringify(todos);
 console.log(todoJSON);
 
 console.log(`hello ${c}`)
+
+//forEach
+todos.forEach(function(todo){
+    console.log(todo.text);
+})
+
+//map
+const todoText = todos.map(function(todo){
+    return todo.text;
+})
+
+console.log(todoText)
+
+//filter
+const todoTex = todos.filter(function(todo){
+    return todo.isCompleted == true;
+}).map(function(todo){
+    return todo.text;
+})
+console.log(todoText)
+
+// function multi(a=1, b=1){
+//     return a*b;
+// }
+
+// console.log(multi(2,3))
+
+const multi = (a = 1, b=1) => a*b
+console.log(multi(2,3))
+
+todos.forEach((todo) => console.log(todo))
