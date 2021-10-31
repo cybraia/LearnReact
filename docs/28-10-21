@@ -1,0 +1,8 @@
+forEach doesn't return anything(undefined)
+It calls a provided function on each element of the array
+foreach is an method that is available only in Array objects - callback function 
+for in is used to loop through properties of an object. 
+for in allows you to access the keys of the object but doesn’t provide reference to the values.
+for of is a new way for iterating collections. Its introduced in ES6.
+
+js objects are mutable

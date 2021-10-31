@@ -1,0 +1,14 @@
+Scope essentially means where these variables are available for use.
+The scope is global when a var variable is declared outside a function. This means that any variable that is declared with var outside a function block is available for use in the whole window.
+var is function scoped when it is declared within a function. This means that it is available and can be accessed only within that function.
+Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.
+Let is block scoped. Let can be updated but not re-declared.
+So a variable declared in a block with let is only available for use within that block.
+In hoisting, let gives a reference error while var gives undefined.
+const declarations are block scoped.
+const cannot be updated or re-declared.
+While a const object cannot be updated, the properties of this objects can be updated.
+If you assign a value to a variable that has not been declared, it will automatically become a GLOBAL variable.
+Async
+async before a function makes the function return a promise
+
