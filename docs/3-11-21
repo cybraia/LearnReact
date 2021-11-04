@@ -1,0 +1,17 @@
+React
+
+What?
+opensource frontend JS library - build userinterfaces
+single page applications
+Jordan Walke - SE at Facebook
+
+Advantages?
+Flexability
+Reusability/Composable UI
+Speed
+Apart from all this, it used VirtualDOM instead of realDOM 
+Supports server side rendering
+
+JSX?
+XML-like syntax extention to ECMAScript
+Syntactic sugar for React.createElement() function
