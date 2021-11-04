@@ -1,0 +1,6 @@
+Krishna Mehta chocolates 50 2
+Krishna Mehta cheese 110 1
+Krishna Mehta cake 50 4
+Tanishq burger 90 2
+Tanishq pizza 120 1
+Tanishq fries 80 3

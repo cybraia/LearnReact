@@ -1,4 +1,6 @@
 //async await
+//make chained promises in a read-able way
+//async return a promise
 function makePasta(sauce){
     return new Promise((resolve, reject) => {
         console.log(`Making ${sauce} sauce pasta`)
