@@ -10,7 +10,7 @@ const Create = () => {
         const user = { title, content, userid};
         
         fetch("https://jsonplaceholder.typicode.com/posts", {
-            method: "POST",
+            met ,
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(user)
         }).then(() => {

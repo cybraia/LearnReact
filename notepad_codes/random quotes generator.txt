@@ -1,0 +1,31 @@
+import React, { useState } from 'react'
+
+import './App.css'
+
+const quotes = [
+    "Be yourself, everyone else is already taken.",
+    "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+    "A room without books is like a body without a soul.",
+    "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.",
+    "You only live once, but if you do it right, once is enough.",
+    "If you tell the truth, you don't have to remember anything."
+]
+
+function App() {
+
+    const [quote, setQuotes] = useState(quotes[0])
+
+    function randomQuote (){
+        const randomQuotes = quotes[Math.floor(Math.random()*quotes.length)]
+        setQuotes(randomQuotes)
+    }
+
+	return (
+        <div>
+        <div>{quote}</div>
+		<button onClick={randomQuote}>Click Me</button>
+        </div>
+	)
+}
+
+export default App
